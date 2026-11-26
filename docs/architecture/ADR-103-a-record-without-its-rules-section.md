@@ -20,6 +20,7 @@ We use Postgres for every new service that needs a relational store.
 
 - MUST use Postgres for a new relational store.
 - MUST NOT share a schema between two domains.
+- MUST name every table in the singular.
 
 ## Why
 
