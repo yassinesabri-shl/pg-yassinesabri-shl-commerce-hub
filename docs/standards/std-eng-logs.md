@@ -6,7 +6,7 @@ alwaysApply: true
 kind: standard
 status: Active
 owner: Lead architect
-revision: 1
+revision: 2
 origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474809875/std-eng-logs+Logging (Confluence page 474809875)
 ---
 
@@ -14,9 +14,7 @@ origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc50
 
 ## Applies to
 
-Every public HTTP API. Internal events are not covered.
-
-A hand edit in the hub: batch jobs are covered too.
+Every service log line. Audit trails are not covered.
 
 ## Must
 
