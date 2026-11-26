@@ -5,9 +5,21 @@
   "root_folder": "474977541",
   "mode": "gateway",
   "scopes": {
-    "Backend": [],
-    "Frontend": [],
-    "Data and database": [],
+    "Backend": [
+      "src/**",
+      "cmd/**",
+      "internal/**"
+    ],
+    "Frontend": [
+      "app/**",
+      "components/**",
+      "lib/**"
+    ],
+    "Data and database": [
+      "data/**",
+      "**/migrations/**",
+      "**/*.sql"
+    ],
     "CI/CD and infrastructure": []
   }
 }
