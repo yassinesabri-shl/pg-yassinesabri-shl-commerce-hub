@@ -4,7 +4,7 @@ description: How every public API names its eng-logs.
 globs: []
 alwaysApply: true
 kind: standard
-status: Active
+status: Deprecated
 owner: Lead architect
 revision: 2
 origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474809875/std-eng-logs+Logging (Confluence page 474809875)

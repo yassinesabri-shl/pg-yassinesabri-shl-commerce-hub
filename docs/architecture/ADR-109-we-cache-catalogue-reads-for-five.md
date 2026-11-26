@@ -4,7 +4,7 @@ description: We cache catalogue reads for five minutes at the gateway.
 globs: ["src/**"]
 alwaysApply: false
 kind: adr
-status: Accepted
+status: Deprecated
 owner: Platform architect
 revision: 1
 origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474875221/ADR-109+We+cache+catalogue+reads+for+five+minutes (Confluence page 474875221)
