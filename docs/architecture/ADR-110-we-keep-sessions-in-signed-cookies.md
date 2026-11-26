@@ -4,7 +4,7 @@ description: We keep storefront sessions in signed cookies, never in server memo
 globs: ["app/**"]
 alwaysApply: false
 kind: adr
-status: Accepted
+status: Deprecated
 owner: Platform architect
 revision: 1
 origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474678726/ADR-110+We+keep+sessions+in+signed+cookies (Confluence page 474678726)

@@ -6,7 +6,7 @@ alwaysApply: false
 kind: adr
 status: Accepted
 owner: Platform architect
-revision: 2
+revision: 3
 origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474875135/ADR-103+A+record+without+its+Rules+section (Confluence page 474875135)
 ---
 
@@ -20,11 +20,10 @@ We use Postgres for every new service that needs a relational store.
 
 - MUST use Postgres for a new relational store.
 - MUST NOT share a schema between two domains.
-- MUST name every table in the singular.
 
 ## Why
 
-Each team picks its own database today.
+Each team picks its own database today, and nobody owns the backups.
 
 ## Rejected
 

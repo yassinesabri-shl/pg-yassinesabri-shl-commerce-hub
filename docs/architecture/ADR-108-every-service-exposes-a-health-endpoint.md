@@ -4,7 +4,7 @@ description: Every service exposes a health endpoint at /health that answers wit
 globs: ["src/**","cmd/**"]
 alwaysApply: false
 kind: adr
-status: Accepted
+status: Superseded by ADR-101
 owner: Platform architect
 revision: 1
 origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474875201/ADR-108+Every+service+exposes+a+health+endpoint (Confluence page 474875201)
