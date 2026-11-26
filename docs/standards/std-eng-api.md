@@ -4,7 +4,7 @@ description: How every public API names its eng-api.
 globs: ["**/*.ts","**/*.tsx"]
 alwaysApply: false
 kind: standard
-status: Active
+status: Deprecated
 owner: Lead architect
 revision: 1
 origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474809855/std-eng-api+API+design (Confluence page 474809855)
