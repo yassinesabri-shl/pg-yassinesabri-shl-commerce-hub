@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "prefix": "SHOP",
-  "next": 1,
-  "blocks": []
+  "next": 3,
+  "blocks": [
+    { "from": 1, "to": 2, "taken_by": "decomposition", "slug": "dietary-filter" }
+  ]
 }
