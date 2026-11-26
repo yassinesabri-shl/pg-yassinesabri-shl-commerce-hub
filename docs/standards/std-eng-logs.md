@@ -16,6 +16,8 @@ origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc50
 
 Every public HTTP API. Internal events are not covered.
 
+A hand edit in the hub: batch jobs are covered too.
+
 ## Must
 
 - **std-eng-logs.01** MUST use kebab-case in a path segment.
