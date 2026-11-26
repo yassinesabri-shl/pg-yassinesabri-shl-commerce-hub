@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "repositories": {
+    "pg-yassinesabri-shl-storefront-web": {
+      "url": "https://github.com/yassinesabri-shl/pg-yassinesabri-shl-storefront-web.git",
+      "checks": "checks.env",
+      "purpose": "The Larder shop that a customer uses: it shows this week's meal-kit menu from catalogue-api, keeps the customer's basket in a signed cookie, and places the order with orders-api, then shows the order's status as it moves through picking and dispatch.",
+      "readAt": "68f5dffe4f2c207b8ab5dc2b24cb065cdc648a87",
+      "trunk": "default"
+    },
+    "pg-yassinesabri-shl-catalogue-api": {
+      "url": "https://github.com/yassinesabri-shl/pg-yassinesabri-shl-catalogue-api.git",
+      "checks": "checks.env",
+      "purpose": "Serves Larder's recipes and weekly menus over HTTP, with every price in integer minor units, to the storefront and to orders-api, which reads the price of each recipe when a customer places an order.",
+      "readAt": "bd5786786131edcdee24f55deec0d8ca0e6bd833",
+      "trunk": "bcg_main"
+    },
+    "pg-yassinesabri-shl-orders-api": {
+      "url": "https://github.com/yassinesabri-shl/pg-yassinesabri-shl-orders-api.git",
+      "checks": "checks.env",
+      "purpose": "orders-api takes a customer's order for one menu week, freezes each recipe's price from catalogue-api at the moment the order is placed, and moves the order through its states from placed to delivered for the storefront and the warehouse.",
+      "readAt": "14070b378bfa617171d948cef333a67f5b82d554",
+      "trunk": "bcg_main"
+    }
+  }
+}
