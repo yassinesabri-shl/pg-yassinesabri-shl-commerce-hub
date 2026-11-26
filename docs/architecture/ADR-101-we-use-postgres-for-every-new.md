@@ -27,8 +27,8 @@ Three engines run in production today, and two of them lack a backup plan.
 
 ## Rejected
 
-- Not Keep every engine, because Three sets of backups to run.
-- Not MySQL everywhere, because No team runs it today.
+- Not keep every engine, because three sets of backups to run.
+- Not MySQL everywhere, because no team runs it today.
 
 ## Accepted costs
 
