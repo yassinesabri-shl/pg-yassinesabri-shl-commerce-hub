@@ -27,8 +27,8 @@ Each team picks its own database today.
 
 ## Rejected
 
-- Not Keep every engine, because Three sets of backups to run.
-- Not MySQL everywhere, because No team runs it today.
+- Not keep every engine, because three sets of backups to run.
+- Not MySQL everywhere, because no team runs it today.
 
 ## Accepted costs
 
