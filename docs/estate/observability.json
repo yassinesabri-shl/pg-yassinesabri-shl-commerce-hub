@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "hub": "pg-yassinesabri-shl-commerce-hub",
+  "platform": "cubeapm",
+  "url": "https://localhost:4300",
+  "auth": "bearer"
+}
