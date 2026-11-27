@@ -6,7 +6,7 @@ alwaysApply: false
 kind: standard
 status: Active
 owner: Lead architect
-revision: 1
+revision: 2
 origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474842681/std-eng-deploy+Deployments (Confluence page 474842681)
 ---
 

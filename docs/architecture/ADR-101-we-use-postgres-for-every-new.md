@@ -6,11 +6,11 @@ alwaysApply: false
 kind: adr
 status: Accepted
 owner: Platform architect
-revision: 3
-origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474809795/ADR-101+We+use+Postgres+for+every+new+relational+store (Confluence page 474809795)
+revision: 4
+origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474809795/ADR-101+We+use+Postgres+for+every+new+relational+store+one+schema+per+domain (Confluence page 474809795)
 ---
 
-# ADR-101: We use Postgres for every new relational store
+# ADR-101: We use Postgres for every new relational store, one schema per domain
 
 ## Decision
 
