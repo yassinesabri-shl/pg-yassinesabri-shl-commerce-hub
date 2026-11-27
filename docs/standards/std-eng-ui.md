@@ -1,12 +1,12 @@
 ---
 name: std-eng-ui
 description: How every public API names its eng-ui.
-globs: ["app/**","components/**","lib/**","**/*.ts","**/*.tsx","web/components/**"]
+globs: ["**/*.ts","**/*.tsx","web/components/**"]
 alwaysApply: false
 kind: standard
 status: Active
 owner: Lead architect
-revision: 1
+revision: 2
 origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474875282/std-eng-ui+Storefront+components (Confluence page 474875282)
 ---
 
