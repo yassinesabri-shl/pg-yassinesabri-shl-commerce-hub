@@ -1,12 +1,12 @@
 ---
 name: std-eng-api
 description: How every public API names its eng-api.
-globs: ["src/**","cmd/**","internal/**","**/*.ts","**/*.tsx"]
+globs: ["src/**","cmd/**","internal/**","data/**","**/migrations/**","**/*.sql","**/*.ts","**/*.tsx"]
 alwaysApply: false
 kind: standard
 status: Active
 owner: Lead architect
-revision: 5
+revision: 6
 origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474809855/std-eng-api+API+design (Confluence page 474809855)
 ---
 

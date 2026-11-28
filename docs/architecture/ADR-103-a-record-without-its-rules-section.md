@@ -4,7 +4,7 @@ description: We use Postgres for every new service that needs a relational store
 globs: ["services/orders/**","libs/db/**"]
 alwaysApply: false
 kind: adr
-status: Accepted
+status: Deprecated
 owner: Platform architect
 revision: 3
 origin: https://shl.atlassian.net/wiki/spaces/~71202058c67a3fe34f4165a8b8c49dc509cd2f/pages/474875135/ADR-103+A+record+without+its+Rules+section (Confluence page 474875135)
